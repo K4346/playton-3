@@ -28,5 +28,5 @@ copy "Arquivos Gerais\overlay_0033.bin" "ROM Modificada\PLAYTON3\overlay" /B/Y
 rem Monta a ROM nova e gera um patch
 cd ROM Modificada
 call pack_rom.bat
-rem call do_patch.bat
+call do_patch.bat
 cd ..
