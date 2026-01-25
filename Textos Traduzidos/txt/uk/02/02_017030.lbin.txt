@@ -1,0 +1,92 @@
+[7017010000000000:000e000000]
+[7117030001000000:000a00000002000000000209000000]
+ハロルド
+!******************************!
+<T>Boa noite, senhor.<W> Posso ver
+seu cartão de membro, por favor?
+!******************************!
+[7117030004000000:000a000000024a0000000253000000]
+レイトン
+!******************************!
+<T>Cartão de membro?
+!******************************!
+[7117030007000000:000a00000002000000000267000000]
+ハロルド
+!******************************!
+<T><A1/2>O Cassino Gilded 7 é um refúgio
+onde as mais refinadas damas e
+cavalheiros da sociedade se reúnem
+!******************************!
+[711703000a000000:000a000000020000000002c7000000]
+ハロルド
+!******************************!
+<T>Verificamos os cartões na entrada
+para garantir que tipos menos
+recomendáveis fiquem do lado de fora.
+!******************************!
+[711703000d000000:000a000000024a000000021f010000]
+レイトン
+!******************************!
+<T>Hmm... Confesso que esta é a
+primeira vez que ouço falar
+de tal política.
+!******************************!
+[7117030010000000:000a000000024a0000000262010000]
+レイトン
+!******************************!
+<T>Não haveria a possibilidade de
+abrir uma exceção para nós?
+!******************************!
+[7117030013000000:000a000000020000000002a3010000]
+ハロルド
+!******************************!
+<T><A2/2>Bem, seu chapéu demonstra que
+o senhor é um homem de gosto impecável.
+Resta apenas testar seu intelecto.
+!******************************!
+[7117030016000000:000a00000002000000000213020000]
+ハロルド
+!******************************!
+<T>Se conseguir resolver este enigma,
+permitirei sua entrada sem o cartão
+— apenas desta vez.
+!******************************!
+[7117030019000000:0014000000026b0200000272020000]
+ルーク
+!******************************!
+<T><A4/1>Esse sujeito também parece bem
+fixado no seu chapéu.
+!******************************!
+[711703001c000000:0014000000024a00000002b2020000]
+レイトン
+!******************************!
+<T>Nada mais natural. Haveria prova
+maior do espírito cavalheiresco
+do que uma bela cartola?
+!******************************!
+[711703001f000000:00e80300000200000000020c030000]
+ハロルド
+!******************************!
+<T><A2/1>Vamos lá, senhor. Não me diga que
+um cavalheiro do seu calibre é
+incapaz de resolver um simples enigma.
+!******************************!
+[7117030022000000:00d007000002000000000276030000]
+ハロルド
+!******************************!
+<T><A2/1>Voltando para tentar novamente,
+senhor?<W> <A2/2> Talvez desta vez
+encontre a resposta correta.
+!******************************!
+[7117030025000000:00b80b0000020000000002d3030000]
+ハロルド
+!******************************!
+<T><A1/1>Resolvido com maestria, senhor.
+!******************************!
+[7117030028000000:00b80b0000020000000002f2030000]
+ハロルド
+!******************************!
+<T>O senhor conquistou o direito de
+desfrutar de nossas instalações
+exclusivas.<W> <A1/2>Bem-vindo ao Gilded 7.
+!******************************!
