@@ -1,0 +1,63 @@
+Layton's Text Packer - Documentação
+====================================
+
+Este é o packer de textos para a tradução do Professor Layton and the Lost Future.
+
+Arquivos:
+---------
+- pack_text.py    : Script Python que empacota os textos traduzidos
+- pack_text_en.bat: Batch file que chama o pack_text.py
+
+Uso:
+----
+1. Edite os arquivos .txt na pasta Textos Traduzidos/
+2. Execute pack_text_en.bat para gerar os arquivos .lbin
+3. Os arquivos .lbin serão gerados em Arquivos Traduzidos/
+
+Formato dos arquivos de texto:
+-------------------------------
+Os arquivos .lbin.txt contêm:
+- Cabeçalhos hexadecimais entre colchetes: [7017010000000000:0002000000]
+- Nomes de personagens (em japonês)
+- Separadores: !******************************!
+- Texto com tags especiais
+
+Tags especiais:
+---------------
+{'a}  → á
+{'e}  → é
+{'i}  → í
+{'o}  → ó
+{'u}  → ú
+{''}  → "
+{^?}  → ¿
+{^!}  → ¡
+
+<T>       → Tag de texto
+<A1/1>    → Tag de animação/velocidade
+<V0030>   → Tag de voz/ personagem
+
+Limitações:
+-----------
+1. O formato binário exato dos arquivos .lbin é desconhecido.
+   Este packer usa uma estrutura simplificada que pode não funcionar
+   diretamente com a ROM do jogo.
+
+2. Os cabeçalhos hexadecimais são preservados como estão. Se o texto
+   traduzido for significativamente maior ou menor que o original,
+   os offsets no cabeçalho podem precisar ser ajustados manualmente.
+
+3. A codificação usada é UTF-8. O jogo pode usar Shift-JIS ou outra
+   codificação customizada.
+
+4. Este packer foi criado por engenharia reversa e pode não ser
+   compatível com a versão final da ROM.
+
+Para usar com a ROM:
+--------------------
+1. Execute pack_text_en.bat para gerar Arquivos Traduzidos/
+2. Copie os arquivos .lbin para a pasta apropriada na ROM Modificada/
+3. Execute create_rom.bat para montar a ROM final
+
+Autor: DiegoHH (hansen.hahn@gmail.com)
+Projeto: https://github.com/hansenhahn/playton-3
